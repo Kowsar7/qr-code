@@ -1,0 +1,22 @@
+.QRCode {
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+    bottom: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(218deg 63% 46%);
+}
+
+.attribution a:active, a:hover {
+    color: #2c7dfa;
+    text-decoration: underline;
+}

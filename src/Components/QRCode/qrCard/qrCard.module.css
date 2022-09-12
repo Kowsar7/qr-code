@@ -1,0 +1,42 @@
+.Container {
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+
+.Card {
+    display: inline;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    border-radius: 15px;
+    padding: 13px;
+    box-shadow: 0px 2px 5px 1px hsl(215, 12%, 80%);
+}
+
+.Image {
+    width: 240px;
+    border-radius: 10px;
+}
+
+.Bold {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.Small {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+@media (max-width: 376px) {
+    .Card {
+        display: inline;
+        width: 70%;
+    }
+    .Image {
+        width: 97%;
+    }
+    .Container {
+        height: 654px;
+    }
+}
